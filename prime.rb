@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(number)
+  
   i = 2
   while i < (number / 2)
     if number % i == 0
@@ -7,5 +8,5 @@ def prime?(number)
     end
     i += 1
   end
-  return false
+  return true
 end
